@@ -6,7 +6,7 @@ services:
     ports:
       - "80:2368"
     environment:
-      - URL=http://localhost
+      - URL=http://127.0.01
       - NODE_ENV=production
       - MYSQL_HOST=mysql-primary
       - MYSQL_PASSWORD=mypass
